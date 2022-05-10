@@ -1,0 +1,46 @@
+.App {
+    text-align: center;
+  }
+  
+  
+  .header {
+    background-color: #282c34;
+    max-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding-bottom: 40px;
+  }
+  
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    row-gap: 20px;
+    
+  }
+  
+  .card-container {
+    margin-top: 30px;
+    justify-self: center;
+    width: 200px;
+    height: 280px;
+    border: 1px solid #282c34;
+    border-radius: 20px;
+  }
+  
+  .card-container:hover {
+    position:relative;
+    top: -5px;
+    box-shadow: 5px 5px #888888;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 20px;
+  }
